@@ -1,0 +1,510 @@
+body {
+	margin: 0;
+}
+
+nav{
+	background-color: #ad9964;
+    display: flex;
+    width: 100%;
+	position: fixed;
+	top: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    z-index: 1;
+}
+
+ul {
+	width: 100%;
+    list-style-type: none;
+    display: flex;
+	padding: 0;
+	justify-content: center;
+	margin-right: 6%;
+	font-size: 18px;
+    font-family: "Tilt Warp";
+    text-transform: uppercase;
+}
+
+.li {
+    margin-top: 10px;
+}
+
+#logo {
+    text-decoration: none;
+    color: rgb(73, 4, 4);
+    margin-left: 50px;
+    font-size: 28px;
+}
+
+#logoLi {
+    margin-top: 2px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+
+.links:hover {
+    color: white;
+}
+
+#order {
+    width: 170px;
+    height: 40px;
+    background-color: #323232;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    margin-left: 50px;
+    font-family: "Tilt Warp";
+    cursor: pointer;
+}
+
+#order:hover {
+    color: #ad9964;
+}
+
+.fa-solid {
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+#login {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+#adress-text {
+    background-color: #323232;
+    color:#ad9964;
+    text-align: center;
+    font-style: italic;
+}
+
+#adress-txt {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#main {
+    width: 100%;
+    height: 600px;
+    background-image: url(steak.jpg);
+    position: fixed;
+    top: 115px;
+}
+
+#main-up {
+    width: 100%;
+    height: 600px;
+    position: relative;
+}
+
+#name {
+    display: flex;
+    justify-content: center;
+    margin-top: 180px;
+    color: white;
+    font-family: "Tilt Warp";
+    font-size: 64px;
+}
+
+#name-down {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: "Tilt Warp";
+    font-size: 24px;
+    margin: 0;
+}
+
+#main-order {
+    display: flex;
+    justify-content: center;
+}
+
+.order-button {
+    width: 170px;
+    height: 40px;
+    background-color: #ad9964;
+    color: white;
+    font-size: 18px;
+    font-family: "Tilt Warp";
+    border: 0;
+    margin-top: 20px;
+}
+
+#chef {
+    width: 100%;
+    background-image: url(chef.png);
+    margin-top: 300px;
+}
+
+#chef-up {
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    color:#ad9964;
+    font-family: "Tilt Warp";
+    font-size: 32px;
+    letter-spacing: 8px;
+}
+
+#triple {
+    display: flex;
+    font-family: 'Tilt Warp';
+    margin-left: 150px;
+    padding-bottom: 200px;
+}
+
+hr {
+    width: 100px;
+    background-color: #ad9964;
+    border: 1px solid #ad9964;
+}
+
+.triples {
+    width: 330px;
+    color: #ad9964;
+    letter-spacing: 5px;
+    text-align: center;
+    padding-left: 50px;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+#reserv {
+    width: 100%;
+    background-image: url(reserv.png);
+}
+
+#reserv-text {
+    display: flex;
+    justify-content: center;
+    padding-top: 180px;
+    color: white;
+    font-family: 'Tilt Warp';
+    font-size: 24px;
+    letter-spacing: 10px;
+}
+
+#help-us {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Tilt Warp';
+}
+
+.selects {
+    margin-right: 15px;
+}
+
+.party {
+    width: 340px;
+    height: 40px;
+    font-family: 'Tilt Warp';
+    font-size: 16px;
+}
+
+#select-div {
+    display: flex;
+    margin-left: 120px;
+    margin-top: 80px;
+    padding-bottom: 350px;
+}
+
+#tableBtn {
+    width: 120px;
+    height: 40px;
+    background-color: #746743;
+    border: 0;
+    color: white;
+    font-family: 'Tilt Warp';
+    margin-top: 20px;
+}
+
+#date {
+    width: 360px;
+    height: 37px;
+    font-family: 'Tilt Warp';
+    font-size: 16px;
+}
+
+#cow {
+    width: 100%;
+    background-image: url(cow.png);
+}
+
+#perfect {
+    width: 650px;
+    font-size: 48px;
+    text-align: center;
+    color: #ad9964;
+    font-family: 'Tilt Warp';
+    letter-spacing: 15px;
+    margin-top: 350px;
+}
+
+.cow-div {
+    display: flex;
+    justify-content: center;
+}
+
+#para {
+    width: 650px;
+    color: #ad9964;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 22px;
+    margin-top: 50px;
+    padding-bottom: 200px;
+}
+
+#drink {
+    width: 100%;
+    background-image: url(drink.png);
+}
+
+#have {
+    width: 650px;
+    font-size: 48px;
+    text-align: center;
+    color: white;
+    font-family: 'Tilt Warp';
+    letter-spacing: 15px;
+    margin-top: 350px;
+}
+
+.drink-div {
+    display: flex;
+    justify-content: center;
+}
+
+#para2 {
+    width: 650px;
+    color: white;
+    letter-spacing: 1px;
+    text-align: center;
+    line-height: 22px;
+    margin-top: 50px;
+    padding-bottom: 200px;
+}
+
+#products {
+    width: 100%;
+    background-image: url(fire.jpeg);
+}
+
+#gal-div {
+    background-color: #323232;
+    display: flex;
+    justify-content: center;
+}
+
+#gallery {
+    font-size: 54px;
+    color: #ad9964;
+    font-family: 'Tilt Warp';
+    letter-spacing: 10px;
+}
+
+.row {
+    display: flex;
+    background-color: #323232;
+}
+
+.cell {
+    width: 25%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+}
+
+#pro1 {
+    background-size: cover;
+    background-image: url(purple.jpg);
+}
+
+#pro2 {
+    background-size: cover;
+    background-image: url(beer.jpg);
+}
+
+#pro3 {
+    background-size: cover;
+    background-image: url(beer2.jpg);
+}
+
+#pro4 {
+    background-size: cover;
+    background-image: url(meat.jpg);
+}
+
+#pro5 {
+    background-size: cover;
+    background-image: url(cut.jpg);
+}
+
+#pro6 {
+    background-size: cover;
+    background-image: url(bar.jpg);
+}
+
+#pro7 {
+    background-size: cover;
+    background-image: url(drinks.jpg);
+}
+
+#pro8 {
+    background-size: cover;
+    background-image: url(cook.jpg);
+}
+
+.cell:hover {
+    opacity: 0.4;
+}
+
+.cell:hover .inner-text {
+    opacity: 1;
+}
+
+.inner-text {
+    color: white;
+    margin-top: 150px;
+    font-size: 36px;
+    opacity: 0;
+}
+
+.join-div {
+    display: flex;
+    justify-content: center;
+}
+
+#join {
+    color:#ad9964;
+    font-family: 'Tilt Warp';
+    margin-top: 120px;
+    letter-spacing: 5px;
+}
+
+#mail {
+    width: 48.4%;
+    height: 30px;
+    color: black;
+    padding-left: 30px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+
+#sub {
+    width: 50.5%;
+    height: 40px;
+    background-color: #ad9964;
+    color: white;
+    font-family: 'Tilt Warp';
+    font-size: 18px;
+    margin-top: 10px;
+    margin-bottom: 100px;
+}
+
+#contact-div {
+    background-color: #323232
+}
+
+.con-div {
+    display: flex;
+    justify-content: center;
+}
+
+#contact {
+    width: 350px;
+    color: white;
+    font-family: 'Tilt Warp';
+    font-size: 48px;
+    letter-spacing: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#tell {
+    color: #ad9964;
+    font-family: 'Tilt Warp';
+}
+
+#foot {
+    display: flex;
+    justify-content: center;
+}
+
+.inputs {
+    display: block;
+    width: 250px;
+    height: 25px;
+    background-color: #323232;
+    border-color: #ad9964;
+    border-style: solid;
+    border-width: 4px;
+    margin-top: 10px;
+    outline: none;
+    color: white;
+}
+
+.inputs:hover {
+    border-width: 3px;
+}
+
+#message {
+    height: 115px;
+    background-color: #323232;
+    border-color: #ad9964;
+    border-style: solid;
+    border-width: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+    outline: none;
+    color: white;
+    display: block;
+}
+
+#foot-head {
+    display: flex;
+}
+
+#adress-div {
+   display: flex;
+   justify-content: center;
+}
+
+#terry {
+    width: 560px;
+    letter-spacing: 3px;
+    color: #ad9964;
+    font-family: 'Tilt Warp';
+    text-align: center;
+    margin-top: 60px;
+}
+
+#map {
+    width: 560px;
+    display: block;
+}
+
+.fa-chevron-up {
+    font-size: 32px;
+    color: #746743;
+    margin-top: 20px;
+}
+
+.go {
+    color: #ad9964;
+    font-family: 'Tilt Warp';
+    letter-spacing: 3px;
+    margin-left: 30px;
+}
