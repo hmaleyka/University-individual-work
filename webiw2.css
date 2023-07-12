@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+}
+
+nav{
+	background-color: #ad9964;
+    display: flex;
+    width: 100%;
+	position: fixed;
+	top: 0;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    z-index: 1;
+}
+
+ul {
+	width: 100%;
+    list-style-type: none;
+    display: flex;
+	padding: 0;
+	justify-content: center;
+	margin-right: 6%;
+	font-size: 18px;
+    font-family: "Tilt Warp";
+    text-transform: uppercase;
+}
+
+.li {
+    margin-top: 10px;
+}
+
+#logo {
+    text-decoration: none;
+    color: rgb(73, 4, 4);
+    margin-left: 50px;
+    font-size: 28px;
+}
+
+#logoLi {
+    margin-top: 2px;
+}
+
+.links {
+    text-decoration: none;
+    color: black;
+    margin-left: 50px;
+}
+
+.links:hover {
+    color: white;
+}
+
+#order {
+    width: 170px;
+    height: 40px;
+    background-color: #323232;
+    color: white;
+    font-size: 16px;
+    border: 0;
+    margin-left: 50px;
+    font-family: "Tilt Warp";
+    cursor: pointer;
+}
+
+#order:hover {
+    color: #ad9964;
+}
+
+.fa-solid {
+    font-size: 24px;
+    margin-left: 15px;
+}
+
+#login {
+    text-decoration: none;
+    color: black;
+    margin-left: 10px;
+}
+
+h1 {
+    color:#ad9964
+}
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    font-size: 48px;
+    letter-spacing: 10px;
+}
+
+.imagebox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    font-size: 30px;
+    color: white;
+}
+.box {
+    
+        width: 420px;
+        height: 100px;
+        border: 1px solid gray;
+        margin: 10px;
+        padding-left: 25px;
+}
+.container {
+    display: flex; /* Create a flex container for the body */
+    justify-content: center; /* Center the flex items horizontally */
+    align-items: center; /* Center the flex items vertically */
+    height: 20vh; }
+
+.js {
+    width: 260px;
+    border: 1px solid rgb(255, 255, 255);
+    margin: 10px;
+    height: 5vh;
+    padding-top: 15px;
+    padding-left: 20px;
+    margin-left: 300px;
+}
+.custom-line {
+    display: flex; /* Create a flex container for the body */
+    justify-content: center; /* Center the flex items horizontally */
+    align-items: center;
+    border: none;
+    height: 1px;
+    background-color: #ffffff;
+}
+
+.para {
+    font-size: 20px;
+}
+
+.box:hover {
+    border-color: white;
+}
